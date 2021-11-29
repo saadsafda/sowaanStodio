@@ -79,10 +79,20 @@ export default function Footer() {
                         Pakistan
                       </li>
                       <li>
-                        Phone: <a href="/">+92 (301) 183 2653</a>
+                        Phone:{" "}
+                        <a
+                          href="https://wa.me/923212897837"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          +92 301 183 2653
+                        </a>
                       </li>
                       <li>
-                        Email: <a href="/">support@sowaan.com</a>
+                        Email:{" "}
+                        <a href="mailto:support@sowaan.com">
+                          support@sowaan.com
+                        </a>
                       </li>
                     </ul>
                     <ul className="footer-social">
@@ -92,12 +102,12 @@ export default function Footer() {
                         </a>
                       </li>
                       <li>
-                        <a href="/">
+                        <a href="https://www.facebook.com/SowaanTourism">
                           <i className="fab fa-instagram" />
                         </a>
                       </li>
                       <li>
-                        <a href="/">
+                        <a href="https://www.facebook.com/SowaanTourism">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
