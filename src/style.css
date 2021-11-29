@@ -109,7 +109,7 @@ a:hover {
 }
 
 a:hover {
-  color: #666;
+  color: #583474;
 }
 
 ul {
@@ -140,6 +140,7 @@ h1 {
 
 h2 {
   font-size: 36px;
+  color: #7e6294;
 }
 
 h3 {
@@ -307,7 +308,7 @@ select:focus {
   border-radius: 50%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 .cursor-inner {
   margin-left: -3px;
@@ -348,7 +349,7 @@ select:focus {
 .mim_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
   display: none;
   opacity: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
   position: absolute;
   z-index: -1111;
 }
@@ -1028,6 +1029,7 @@ button.theme-btn {
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 3.5rem;
+  color: #7e6294;
 }
 .hero-content p {
   font-size: 18px;
@@ -1132,6 +1134,7 @@ button.theme-btn {
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 3.5rem;
+  color: #7e6294;
 }
 
 .about-sub-title.wh,
@@ -1974,6 +1977,7 @@ footer .footer-shape img {
   margin-bottom: 4rem;
   text-transform: capitalize;
   font-weight: 500;
+  color: #7e6294;
 }
 
 /*About Us*/
@@ -2024,7 +2028,7 @@ footer .footer-shape img {
 .copyright p {
   margin-bottom: 0;
   text-transform: capitalize;
-  color: var(--heading-color);
+  color: #7e6294;
 }
 
 /*footer social*/
@@ -2566,4 +2570,28 @@ footer .footer-shape img {
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
   }
+}
+
+/* .imgcli {
+  filter: drop-shadow(2px 4px 6px grey);
+} */
+
+.boxcli {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  margin-left: 14px;
+  padding: 30px;
+  filter: drop-shadow(2px 4px 6px grey);
+}
+.p-d {
+  margin: 5px;
+}
+
+.whatsapp {
+  color: green;
+}
+
+.whatsapp:hover {
+  color: var(--theme-color);
 }

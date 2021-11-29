@@ -27,6 +27,7 @@ export default function ServiceProps(props) {
           className="mb-40"
           style={{
             textAlign: "center",
+            fontSize: "16px",
           }}
         >
           {props.pera}

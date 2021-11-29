@@ -13,8 +13,10 @@ export default function FeatureProps(props) {
         </div>
         <div className="feature-info">
           <h5>{props.title}</h5>
-          <p className="mb-0">{props.pera}</p>
         </div>
+        <p className="mb-0" style={{ fontSize: "16px" }}>
+          {props.pera}
+        </p>
       </div>
     </>
   );

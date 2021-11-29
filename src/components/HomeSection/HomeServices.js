@@ -7,7 +7,7 @@ const bgStyle = {
 
 export default function HomeServices() {
   return (
-    <div className="service-area de-padding" style={bgStyle}>
+    <div id="ourServ" className="service-area de-padding" style={bgStyle}>
       <div className="container">
         <div className="row">
           <div className="col-xl-8 offset-xl-2">

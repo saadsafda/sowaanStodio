@@ -7,10 +7,10 @@ export default function RightSection() {
       data-wow-duration="1s"
       data-wow-delay=".4s"
       style={{
-        visibility: "visible",
         animationDuration: "1s",
         animationDelay: "0.4s",
         animationName: "fadeInUp",
+        visibility: "none",
       }}
     >
       <form
@@ -25,7 +25,7 @@ export default function RightSection() {
               type="text"
               name="name"
               className="form-control input-style-2"
-              placeholder="Marcos Zeletoyan"
+              placeholder="Your Name"
             />
           </div>
           <div className="col-md-6">
@@ -33,7 +33,7 @@ export default function RightSection() {
               type="text"
               name="phone"
               className="form-control input-style-2"
-              placeholder="+00- 1234- 56789"
+              placeholder="Your Moblie Number"
             />
           </div>
           <div className="col-md-12">
@@ -41,14 +41,14 @@ export default function RightSection() {
               type="email"
               name="email"
               className="form-control input-style-2"
-              placeholder="Email Address"
+              placeholder="Your Email Address"
             />
           </div>
           <div className="col-12">
             <textarea
               className="form-control input-style-2"
               name="message"
-              placeholder="Message"
+              placeholder="Please write a message to our consultant."
               defaultValue={""}
             />
           </div>

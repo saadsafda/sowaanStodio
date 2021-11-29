@@ -55,7 +55,7 @@
 
   /* Absolute distance from center, only positive */
   --distance: calc(
-     (var(--char-offset) * var(--char-offset)) / var(--char-center)
+    (var(--char-offset) * var(--char-offset)) / var(--char-center)
   );
 
   /* Distance from center where -1 is the far left, 0 is center, 1 is far right */

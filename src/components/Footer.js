@@ -2,22 +2,31 @@ import React from "react";
 import footerins1 from "../assets/img/singlepost/ins-1.jpg";
 import footerins2 from "../assets/img/singlepost/ins-2.jpg";
 import footerins3 from "../assets/img/singlepost/ins-3.jpg";
-import footerlogo from "../assets/img/logo/logo.png";
+import footerlogo from "../assets/img/sowaanimg/logo2.png";
 
 export default function Footer() {
   return (
     <footer className="footer-2">
       <div className="footer-widget">
         <div className="container">
-          <div className="footer-widget-wrapper de-padding">
+          <div
+            className="footer-widget-wrapper"
+            style={{ padding: "30px", paddingBottom: "50px" }}
+          >
             <div className="row g-5">
               <div className="col-xl-4 col-sm-6 col-lg-6">
                 <div className="footer-widget-box ab-us">
                   <div>
-                    <img src={footerlogo} alt="thumb" />
+                    <img
+                      src={footerlogo}
+                      alt="thumb"
+                      style={{ width: "50%" }}
+                    />
                   </div>
-                  <p className="mb-50">
-                    Maboriosam in a nesciung egemagnaeli montant odiy.
+                  <br />
+                  <p className="mb-50" style={{ marginTop: "-30px" }}>
+                    Your Technology Partner for Software Innovation and
+                    Market-leading Solutions.
                   </p>
                   <form className="sub-form">
                     <input
@@ -25,7 +34,11 @@ export default function Footer() {
                       placeholder="Your Email"
                       className="input-style-1 input-style-2"
                     />
-                    <button type="submit" className="sub-btn btn-3 btn-5">
+                    <button
+                      type="submit"
+                      className="sub-btn btn-3 btn-5"
+                      style={{ height: "65px" }}
+                    >
                       Subscribe
                     </button>
                   </form>
@@ -55,21 +68,22 @@ export default function Footer() {
               </div>
               <div className="col-xl-3 col-sm-6 col-lg-6">
                 <div className="footer-widget-box">
-                  <h4 className="footer-widget-title">Helpful Links</h4>
+                  <h4 className="footer-widget-title">Our HQ</h4>
                   <ul className="adr">
                     <li>
-                      Address: House 00, Road No : 01, Street address, ABC
+                      Address: 1/6-P, PECHS, Block 6, Shahra-e-Faisal, Karachi
+                      Pakistan
                     </li>
                     <li>
-                      Phone: <a href="/">+0 123-456-7890</a>
+                      Phone: <a href="/">+92 (301) 183 2653</a>
                     </li>
                     <li>
-                      Email: <a href="/">info@example.com</a>
+                      Email: <a href="/">support@sowaan.com</a>
                     </li>
                   </ul>
                   <ul className="footer-social">
                     <li>
-                      <a href="/">
+                      <a href="https://www.facebook.com/SowaanTourism">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
@@ -84,8 +98,8 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a href="/">
-                        <i className="fab fa-youtube" />
+                      <a href="https://www.linkedin.com/company/sowaan/">
+                        <i className="fab fa-linkedin" />
                       </a>
                     </li>
                   </ul>
@@ -113,7 +127,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="copyright text-center">
-            <p className="mb-0">© 2020 All Right Reserved, Ailng</p>
+            <p className="mb-0">© 2021 Sowaan. All rights reserved</p>
           </div>
         </div>
       </div>

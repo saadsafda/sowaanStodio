@@ -1,5 +1,6 @@
 import React from "react";
 import imgUrl from "../../assets/img/bg/bg-2.png";
+import ButtonProps from "../../utils/ButtonProps";
 
 const Styleimg = {
   backgroundImage: "url(" + imgUrl + ")",
@@ -7,33 +8,29 @@ const Styleimg = {
 
 export default function Promo() {
   return (
-    <div className="promo de-padding" style={Styleimg}>
-      <div className="container">
-        <div className="promo-wpr">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-xl-7">
-              <div className="promo-left">
-                <span className="about-sub-title">Contact Us</span>
-                <h2
-                  data-splitting
-                  className="about-title mb-0 wow"
-                  data-wow-duration=".1s"
-                  data-wow-delay=".4s"
-                >
-                  If You Have any Projects or Task for Us. Please Contact Us
-                </h2>
-              </div>
-            </div>
-            <div className="col-xl-5">
-              <div
-                className="promo-right wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay=".3s"
-              >
-                <a href="contact.html" className="theme-btn">
-                  Contact Us
-                </a>
-              </div>
+    <div
+      className="promo"
+      style={Styleimg}
+      // style={{  color: "grey" }}
+    >
+      <div className="container" style={{ padding: "50px" }}>
+        <div className="row">
+          <div className="col-xl-8 offset-xl-2">
+            <div
+              className="site-title text-center wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".2s"
+            >
+              <h2 className="about-title mb-0">Out of the Box Creativty</h2>
+              <p className="mb-40" style={{ fontSize: "16px" }}>
+                We offer you out of the box creative solution that takes your
+                brand on the top of the market and guarantee a place in the
+                spotlight. No matter what kind of industry, our particular plans
+                will leave your intended targeted audience fascinated and
+                amazed. Our aim is to work in a domain where originality and
+                fulfillment come first, in what we earn!
+              </p>
+              <ButtonProps text="TALK WITH AN EXPERT" />
             </div>
           </div>
         </div>

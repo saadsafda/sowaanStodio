@@ -14,18 +14,31 @@ export default function LeftSection() {
           animationName: "fadeInUp",
         }}
       >
+        <br />
         <li>
-          <h5 className="fz-18-5">Address:</h5>
-          <span>House 00, Road No : 01, Street address, ABC, Canada</span>
+          <h5 className="fz-18-5">Karachi, Pakistan</h5>
+          <span style={{ fontSize: "16px" }}>
+            1/6-P, PECHS, Block 6, Shahra-e-Faisal, Karachi Pakistan
+          </span>
         </li>
         <li>
-          <h5 className="fz-18-5">Phone:</h5>
-          <span>+0 123-456-7890, +00 123-456-789</span>
+          <h5 className="fz-18-5">Riyadh, KSA</h5>
+          <span style={{ fontSize: "16px" }}>
+            Al Mousa Office Buildings, Tower # 4, Floor # 2, Office No. 425
+            Riyadh, KSA
+          </span>
         </li>
         <li>
-          <h5 className="fz-18-5">Email:</h5>
-          <span>
-            <a href="/">hello@example.com</a>
+          <h5 className="fz-18-5">Dubai, UAE</h5>
+          <span style={{ fontSize: "16px" }}>
+            The Iridium Building, Suite # 17, Umm Suqeim Road, Al Barsha P.O Box
+            391186 Dubai, UAE
+          </span>
+        </li>
+        <li>
+          <h5 className="fz-18-5">England, UK</h5>
+          <span style={{ fontSize: "16px" }}>
+            146 Sneinton Dale Nottingham, England NG2 4HJ
           </span>
         </li>
       </ul>
