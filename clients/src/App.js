@@ -23,11 +23,7 @@ import Loading from "./components/Loading";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import NotFound from "./Pages/NotFound";
-// import About from "./Pages/About";
 import ScrollToTop from "./components/ScrollToTop";
-// import Services from "./Pages/Services";
-// import SingleService from "./Pages/SingleService";
-// import Contect from "./Pages/Contect";
 // import Home from "./Pages/Home";
 const Home = lazy(() => import("./Pages/Home"));
 
@@ -49,21 +45,25 @@ function App() {
             data-color="crimson"
           >
             <div id="main-wrapper">
-              <Header />
               <Routes>
-                <Route exact path="/" element={<Home />} />
-                {/* <Route path="/about" element={<About />} />
-                <Route path="/service" element={<Services />} />
-                <Route path="/service-single" element={<SingleService />} />
-                <Route path="/contect" element={<Contect />} /> */}
+                <Route
+                  exact
+                  path="/"
+                  element={
+                    <>
+                      <Header />
+                      <Home />
+                      <Footer />
+                    </>
+                  }
+                />
                 <Route path="*" element={<NotFound />} />
               </Routes>
-              <Footer />
               <a href="#bdy" id="scrtop" className="smooth-menu">
-                <i class="ti-arrow-up"></i>
+                <i className="ti-arrow-up"></i>
               </a>
-              <div class="mouse-cursor cursor-outer"></div>
-              <div class="mouse-cursor cursor-inner"></div>
+              <div className="mouse-cursor cursor-outer"></div>
+              <div className="mouse-cursor cursor-inner"></div>
             </div>
           </div>
         </Router>

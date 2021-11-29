@@ -1,5 +1,5 @@
 import React from "react";
-import { Dialog, DialogTitle } from "@material-ui/core";
+import { Dialog } from "@material-ui/core";
 import RightSection from "../components/ContectSection/RightSection";
 
 export default function DialogFormProps(props) {

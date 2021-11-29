@@ -41,8 +41,9 @@ export default function Header() {
                     target="_blank"
                     rel="noreferrer"
                     className="whatsapp"
+                    style={{ fontWeight: "bold" }}
                   >
-                    <i className="icofont-brand-whatsapp mr-2" /> - (+92) 321 289
+                    <i className="icofont-brand-whatsapp mr-2" /> +92 321 289
                     7837
                   </a>
                 </li>

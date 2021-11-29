@@ -93,8 +93,8 @@ export default function BlogSection() {
             </h2>
             <p>
               Check out the names of our clients, which are well-known companies
-              in their industry. They were glad to part of our logo design
-              services.
+              in their industry.
+              <br /> They were glad to part of our logo design services.
             </p>
           </div>
           <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-6 gallery">

@@ -4,7 +4,7 @@ export default function CaseStudyPropos(props) {
   return (
     <div className="case-box">
       <div className="case-pic">
-        <img src={props.img} alt="thumb" />
+        <img src={props.img} alt="thumb" style={{ margin: "20px" }} />
       </div>
       {/* <div className="case-info">
         <span className="d-block l-h-1 fz-16 mb-20">{props.pera}</span>

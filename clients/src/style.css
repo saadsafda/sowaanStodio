@@ -41,7 +41,7 @@
   --heading-color: #120f2d;
   --bg-color: #f6f5fd;
   --body-color: #818090;
-  --theme-color: #4d41e0;
+  --theme-color: #583474;
   --theme-color-2: #f14e5e;
   --white-color: #fff;
   --black-color: #000;
@@ -119,6 +119,7 @@ ul {
 
 li {
   list-style: none;
+  color: #7e6294;
 }
 
 h1,
@@ -273,7 +274,7 @@ select:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #331b88 !important;
+  background: #583474 !important;
   border-radius: 5px;
   transition: all 0.4s ease;
 }
@@ -316,7 +317,7 @@ select:focus {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #4d41e1;
+  background-color: #583474;
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
@@ -327,7 +328,7 @@ select:focus {
   margin-top: -30px;
   width: 60px;
   height: 60px;
-  background-color: #4d41e1;
+  background-color: #583474;
   opacity: 0.2;
 }
 .cursor-outer {
@@ -335,7 +336,7 @@ select:focus {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #4d41e1;
+  border: 2px solid #583474;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
@@ -450,7 +451,7 @@ select:focus {
   position: relative;
   transition: 0.3s;
   cursor: pointer;
-  color: #010e2e;
+  color: #7e6294;
   font-size: 1.6rem;
   line-height: 9rem;
   text-transform: capitalize;
@@ -467,7 +468,7 @@ select:focus {
 
 .navbar.sticked.in .navbar-expand-lg .navbar-nav .nav-link,
 .navbar.sticked.in .navbar-nav .nav-link {
-  color: #010e2e;
+  color: #7e6294;
 }
 
 /*Besi Menu Settings*/
@@ -2070,6 +2071,7 @@ footer .footer-shape img {
 .footer-widget-box.ab-us a {
   font-size: 1.8rem;
   font-family: var(--font-2);
+  color: #7e6294;
 }
 
 .footer-2 .footer-widget-wrapper .footer-widget-box.ab-us {
@@ -2577,6 +2579,7 @@ footer .footer-shape img {
 } */
 
 .boxcli {
+  border-radius: 4px;
   background-color: #fff;
   width: 150px;
   height: 150px;
@@ -2589,7 +2592,7 @@ footer .footer-shape img {
 }
 
 .whatsapp {
-  color: green;
+  color: #4bc959;
 }
 
 .whatsapp:hover {

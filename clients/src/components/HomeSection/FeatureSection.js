@@ -22,7 +22,7 @@ export default function FeatureSection() {
 
   return (
     <>
-      <div id="about" className="feature-areag de-pt">
+      <div className="feature-areag de-pt">
         <div className="container">
           <div className="feature-wpr feature-2 grid-2">
             <div

@@ -16,7 +16,7 @@ export default function AboutFeedBack() {
     autoplaySpeed: 2000,
   };
   return (
-    <div className="feedback-area de-padding">
+    <div className="feedback-area de-padding" id="team">
       <div className="container">
         <div className="swiper-container feed-active">
           <div className="swiper-wrapper">
