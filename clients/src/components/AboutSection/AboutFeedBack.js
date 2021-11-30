@@ -27,7 +27,14 @@ export default function AboutFeedBack() {
                     <div className="col-xl-5">
                       <div className="feedback-left">
                         <div className="feedback-pic text-center">
-                          <img src={man1} alt="thumb" />
+                          <img
+                            src={man1}
+                            alt="thumb"
+                            style={{
+                              height: "300px",
+                              borderRadius: "41% 59% 80% 20% / 60% 44% 56% 40%",
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
@@ -67,7 +74,14 @@ export default function AboutFeedBack() {
                     <div className="col-xl-5">
                       <div className="feedback-left">
                         <div className="feedback-pic text-center">
-                          <img src={man2} alt="thumb" />
+                          <img
+                            src={man2}
+                            alt="thumb"
+                            style={{
+                              height: "300px",
+                              borderRadius: "41% 59% 80% 20% / 60% 44% 56% 40%",
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
@@ -109,7 +123,10 @@ export default function AboutFeedBack() {
                           <img
                             src={man3}
                             alt="thumb"
-                            style={{ height: "200px" }}
+                            style={{
+                              height: "300px",
+                              borderRadius: "41% 59% 80% 20% / 60% 44% 56% 40%",
+                            }}
                           />
                         </div>
                       </div>

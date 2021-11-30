@@ -41,7 +41,10 @@ export default function Footer() {
                       <button
                         type="submit"
                         className="sub-btn btn-3 btn-5"
-                        style={{ height: "64px" }}
+                        style={{
+                          height: "64px",
+                          borderRadius: "0px 4px 4px 0px",
+                        }}
                       >
                         Subscribe
                       </button>
@@ -97,22 +100,38 @@ export default function Footer() {
                     </ul>
                     <ul className="footer-social">
                       <li>
-                        <a href="https://www.facebook.com/SowaanTourism">
+                        <a
+                          href="https://www.facebook.com/sowaanofficial"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.facebook.com/SowaanTourism">
+                        <a
+                          href="https://www.facebook.com/sowaanofficial"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="fab fa-instagram" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.facebook.com/SowaanTourism">
+                        <a
+                          href="https://www.facebook.com/sowaanofficial"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/company/sowaan/">
+                        <a
+                          href="https://www.linkedin.com/company/sowaan"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>

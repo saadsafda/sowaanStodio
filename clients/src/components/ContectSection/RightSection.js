@@ -113,9 +113,10 @@ export default function RightSection() {
             />
           </div>
           {error && <p className="text-danger">{error}</p>}
-          <div className="col-12">
+          <div className="col-12 text-center ">
             <button
               type="button"
+              style={{ width: "100%" }}
               disabled={loading}
               onClick={handleRequest}
               className="theme-btn mt-20"

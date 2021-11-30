@@ -6,17 +6,12 @@ import AboutSection from "../components/HomeSection/AboutSection";
 import AgencySection from "../components/HomeSection/AgencySection";
 import BlogSection from "../components/HomeSection/BlogSection";
 import CaseStudySection from "../components/HomeSection/CaseStudySection";
-// import FaqSection from "../components/HomeSection/FaqSection";
-// import FaqSection2 from "../components/HomeSection/FaqSection2";
 import FeatureSection from "../components/HomeSection/FeatureSection";
 import FeatureSection2 from "../components/HomeSection/FeatureSection2";
 import HeroSection from "../components/HomeSection/HeroSection";
 import HomeServices from "../components/HomeSection/HomeServices";
 import Promo from "../components/HomeSection/Promo";
-// import ReviewSection from "../components/HomeSection/ReviewSection";
-// import SubscribeSection from "../components/HomeSection/SubscribeSection";
-// import WeDoSection from "../components/HomeSection/WeDoSection";
-// import WorkSection from "../components/HomeSection/WorkSection";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 export default function Home() {
   return (
@@ -38,7 +33,9 @@ export default function Home() {
         {/* Promo */}
         <Promo />
         {/* Case Study Sectoin */}
-        <CaseStudySection />
+        <SimpleReactLightbox>
+          <CaseStudySection />
+        </SimpleReactLightbox>
         {/* Agency */}
         <AgencySection />
         {/* Blog Section */}
@@ -59,11 +56,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <WeDoSection />
-        <FaqSection />
-        <WorkSection />
-        <SubscribeSection />
-        <ReviewSection /> */}
       </main>
       <div className="clearfix"></div>
     </>

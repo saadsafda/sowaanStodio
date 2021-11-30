@@ -59,13 +59,13 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#resentwork">
-                      Resent Work
+                    <a className="nav-link" href="#ourServ">
+                      Our Services
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#ourServ">
-                      Our Services
+                    <a className="nav-link" href="#resentwork">
+                      Resent Work
                     </a>
                   </li>
                   <li className="nav-item">

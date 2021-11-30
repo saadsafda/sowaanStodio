@@ -229,6 +229,7 @@ select:focus {
 
 /* bounce-animate */
 .bounce-animate {
+  margin-left: 100px;
   animation-name: float-bob;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -2460,6 +2461,10 @@ footer .footer-shape img {
 }
 
 @media only screen and (max-width: 767px) {
+  .bounce-animate {
+    margin-left: 0px;
+  }
+
   .grid-4 {
     grid-template-columns: 1fr;
   }

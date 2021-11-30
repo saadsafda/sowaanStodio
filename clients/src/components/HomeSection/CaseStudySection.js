@@ -26,7 +26,17 @@ import web6 from "../../assets/img/sowaanimg/web6.jpg";
 import web7 from "../../assets/img/sowaanimg/web7.jpg";
 import web8 from "../../assets/img/sowaanimg/web8.jpg";
 import web9 from "../../assets/img/sowaanimg/web9.jpg";
+import video0 from "../../assets/img/sowaanimg/0.jpg";
+import video1 from "../../assets/img/sowaanimg/1.jpg";
+import video2 from "../../assets/img/sowaanimg/2.jpg";
+import video4 from "../../assets/img/sowaanimg/4.jpg";
+import video5 from "../../assets/img/sowaanimg/5.jpg";
+import video6 from "../../assets/img/sowaanimg/6.jpg";
+import video7 from "../../assets/img/sowaanimg/7.jpg";
+import video8 from "../../assets/img/sowaanimg/8.jpg";
+import video9 from "../../assets/img/sowaanimg/9.jpg";
 import DialogFormProps from "../../utils/DialogFormProps";
+import { SRLWrapper } from "simple-react-lightbox";
 
 export default function CaseStudySection() {
   var settings = {
@@ -34,7 +44,6 @@ export default function CaseStudySection() {
     speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    pauseOnHover: true,
     autoplay: true,
     autoplaySpeed: 1000,
     rows: 3,
@@ -88,7 +97,7 @@ export default function CaseStudySection() {
               >
                 <span className="about-sub-title">Case Study</span>
                 <h2 className="about-title mb-0">
-                  Recently Some Cases Done by Our
+                  Recently some cases done by our
                   <br />
                   Agency Team
                 </h2>
@@ -100,32 +109,48 @@ export default function CaseStudySection() {
             data-wow-duration="1s"
             data-wow-delay=".3s"
           >
-            <Slider {...settings} style={{ width: "76vw" }}>
-              <CaseStudyPropos img={workimg1} />
-              <CaseStudyPropos img={workimg2} />
-              <CaseStudyPropos img={workimg3} />
-              <CaseStudyPropos img={workimg4} />
-              <CaseStudyPropos img={workimg5} />
-              <CaseStudyPropos img={workimg6} />
-              <CaseStudyPropos img={workimg7} />
-              <CaseStudyPropos img={workimg8} />
-              <CaseStudyPropos img={workimg9} />
-              <CaseStudyPropos img={workimg10} />
-              <CaseStudyPropos img={workimg11} />
-              <CaseStudyPropos img={workimg12} />
-              <CaseStudyPropos img={workimg13} />
-              <CaseStudyPropos img={workimg14} />
-              <CaseStudyPropos img={workimg15} />
-              <CaseStudyPropos img={web1} />
-              <CaseStudyPropos img={web2} />
-              <CaseStudyPropos img={web3} />
-              <CaseStudyPropos img={web4} />
-              <CaseStudyPropos img={web5} />
-              <CaseStudyPropos img={web6} />
-              <CaseStudyPropos img={web7} />
-              <CaseStudyPropos img={web8} />
-              <CaseStudyPropos img={web9} />
-            </Slider>
+            <SRLWrapper>
+              <Slider
+                {...settings}
+                style={{
+                  width: "76vw",
+                }}
+              >
+                <CaseStudyPropos img={workimg1} />
+                <CaseStudyPropos img={workimg2} />
+                <CaseStudyPropos img={workimg3} />
+                <CaseStudyPropos img={workimg4} />
+                <CaseStudyPropos img={workimg5} />
+                <CaseStudyPropos img={workimg6} />
+                <CaseStudyPropos img={workimg7} />
+                <CaseStudyPropos img={workimg8} />
+                <CaseStudyPropos img={workimg9} />
+                <CaseStudyPropos img={workimg10} />
+                <CaseStudyPropos img={workimg11} />
+                <CaseStudyPropos img={workimg12} />
+                <CaseStudyPropos img={workimg13} />
+                <CaseStudyPropos img={workimg14} />
+                <CaseStudyPropos img={workimg15} />
+                <CaseStudyPropos img={video0} />
+                <CaseStudyPropos img={video1} />
+                <CaseStudyPropos img={video2} />
+                <CaseStudyPropos img={video4} />
+                <CaseStudyPropos img={video5} />
+                <CaseStudyPropos img={video6} />
+                <CaseStudyPropos img={video7} />
+                <CaseStudyPropos img={video8} />
+                <CaseStudyPropos img={video9} />
+                <CaseStudyPropos img={web1} />
+                <CaseStudyPropos img={web2} />
+                <CaseStudyPropos img={web3} />
+                <CaseStudyPropos img={web4} />
+                <CaseStudyPropos img={web5} />
+                <CaseStudyPropos img={web6} />
+                <CaseStudyPropos img={web7} />
+                <CaseStudyPropos img={web8} />
+                <CaseStudyPropos img={web9} />
+              </Slider>
+            </SRLWrapper>
           </div>
           <div
             className="case-btn mt-60 wow fadeInUp"

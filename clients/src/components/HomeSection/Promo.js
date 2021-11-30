@@ -34,7 +34,7 @@ export default function Promo() {
                 data-wow-duration="1s"
                 data-wow-delay=".2s"
               >
-                <h2 className="about-title mb-0">Out of the Box Creativty</h2>
+                <h2 className="about-title mb-0">Out of the box creativty</h2>
                 <p className="mb-40" style={{ fontSize: "16px" }}>
                   We offer you out of the box creative solution that takes your
                   brand on the top of the market and guarantee a place in the

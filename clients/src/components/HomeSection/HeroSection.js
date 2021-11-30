@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import imgUrl from "../../assets/img/header/header-2.png";
-import headImg from "../../assets/img/header/hdr-3.png";
+import headImg from "../../assets/img/sowaanimg/bgapp.png";
 import ButtonProps from "../../utils/ButtonProps";
 import DialogFormProps from "../../utils/DialogFormProps";
 

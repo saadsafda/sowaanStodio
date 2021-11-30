@@ -3,6 +3,10 @@ import React from "react";
 export default function LeftSection() {
   return (
     <div className="contact-left">
+      <h2>Have Any Questions?</h2>
+      <span style={{ fontSize: "16px" }}>
+        Your email address will not be published. We promise not to spam!
+      </span>
       <ul
         className="contact-list wow fadeInUp"
         data-wow-duration="1s"
