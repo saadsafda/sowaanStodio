@@ -98,7 +98,7 @@ router.post("/signup-with-recaptcha", async (req, res, next) => {
 
 // All other GET requests not handled before will return our React app
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+  res.sendFile(path.resolve(__dirname, "../clients/build", "index.html"));
 });
 
 // serve PORT running here
