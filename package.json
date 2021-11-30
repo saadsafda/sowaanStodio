@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node server/index.js",
     "server": "nodemon server/index.js",
-    "build": "cd client && npm install && npm run build",
+    "build": "cd clients && npm install && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run build\""
   },
   "author": "sowaan",

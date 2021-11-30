@@ -1,3 +1,4 @@
+const path = require("path");
 const creds = require("./nodemon.json");
 
 // console.log(creds);
@@ -7,7 +8,6 @@ let app = express();
 let nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 
-const path = require("path");
 const router = express.Router();
 
 // Static folder
