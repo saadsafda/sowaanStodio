@@ -119,7 +119,7 @@ ul {
 
 li {
   list-style: none;
-  color: #7e6294;
+  color: #583474;
 }
 
 h1,
@@ -141,7 +141,7 @@ h1 {
 
 h2 {
   font-size: 36px;
-  color: #7e6294;
+  color: #583474;
 }
 
 h3 {
@@ -452,7 +452,7 @@ select:focus {
   position: relative;
   transition: 0.3s;
   cursor: pointer;
-  color: #7e6294;
+  color: #583474;
   font-size: 1.6rem;
   line-height: 9rem;
   text-transform: capitalize;
@@ -469,7 +469,7 @@ select:focus {
 
 .navbar.sticked.in .navbar-expand-lg .navbar-nav .nav-link,
 .navbar.sticked.in .navbar-nav .nav-link {
-  color: #7e6294;
+  color: #583474;
 }
 
 /*Besi Menu Settings*/
@@ -1031,7 +1031,7 @@ button.theme-btn {
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 3.5rem;
-  color: #7e6294;
+  color: #583474;
 }
 .hero-content p {
   font-size: 18px;
@@ -1136,7 +1136,7 @@ button.theme-btn {
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 3.5rem;
-  color: #7e6294;
+  color: #583474;
 }
 
 .about-sub-title.wh,
@@ -1979,7 +1979,7 @@ footer .footer-shape img {
   margin-bottom: 4rem;
   text-transform: capitalize;
   font-weight: 500;
-  color: #7e6294;
+  color: #583474;
 }
 
 /*About Us*/
@@ -2030,7 +2030,7 @@ footer .footer-shape img {
 .copyright p {
   margin-bottom: 0;
   text-transform: capitalize;
-  color: #7e6294;
+  color: #583474;
 }
 
 /*footer social*/
@@ -2072,7 +2072,7 @@ footer .footer-shape img {
 .footer-widget-box.ab-us a {
   font-size: 1.8rem;
   font-family: var(--font-2);
-  color: #7e6294;
+  color: #583474;
 }
 
 .footer-2 .footer-widget-wrapper .footer-widget-box.ab-us {

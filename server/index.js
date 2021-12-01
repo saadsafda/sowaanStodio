@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 let transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: "email-smtp.us-east-1.amazonaws.com",
   port: 587,
   secure: false,
   // service: 'Gmail',
